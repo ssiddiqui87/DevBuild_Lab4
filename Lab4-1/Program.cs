@@ -22,9 +22,6 @@ namespace Lab4_1
             //While loop to run until user wants to exit
             while (flag == true)
             {
-
-              
-
                 //Calls RollDice method with diceSide passed
                 int roll1 = RollDice(diceSide);
                 int roll2 = RollDice(diceSide);
