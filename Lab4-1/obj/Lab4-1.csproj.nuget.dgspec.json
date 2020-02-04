@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ssiddiqui\\source\\repos\\Lab4-1\\Lab4-1.csproj": {}
+    "C:\\Users\\ssiddiqui\\OneDrive - KNEX\\Desktop\\devbuild\\Grand Circus\\Week 4 - OOP\\Labs\\Lab4-1\\Lab4-1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ssiddiqui\\source\\repos\\Lab4-1\\Lab4-1.csproj": {
+    "C:\\Users\\ssiddiqui\\OneDrive - KNEX\\Desktop\\devbuild\\Grand Circus\\Week 4 - OOP\\Labs\\Lab4-1\\Lab4-1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ssiddiqui\\source\\repos\\Lab4-1\\Lab4-1.csproj",
+        "projectUniqueName": "C:\\Users\\ssiddiqui\\OneDrive - KNEX\\Desktop\\devbuild\\Grand Circus\\Week 4 - OOP\\Labs\\Lab4-1\\Lab4-1.csproj",
         "projectName": "Lab4-1",
-        "projectPath": "C:\\Users\\ssiddiqui\\source\\repos\\Lab4-1\\Lab4-1.csproj",
+        "projectPath": "C:\\Users\\ssiddiqui\\OneDrive - KNEX\\Desktop\\devbuild\\Grand Circus\\Week 4 - OOP\\Labs\\Lab4-1\\Lab4-1.csproj",
         "packagesPath": "C:\\Users\\ssiddiqui\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ssiddiqui\\source\\repos\\Lab4-1\\obj\\",
+        "outputPath": "C:\\Users\\ssiddiqui\\OneDrive - KNEX\\Desktop\\devbuild\\Grand Circus\\Week 4 - OOP\\Labs\\Lab4-1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

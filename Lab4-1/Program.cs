@@ -7,7 +7,15 @@ namespace Lab4_1
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the dice roller!");
+            Console.Write("How many sides do you want the dice to have? ");
 
+            //Input validation to make sure an int is entered
+            bool isValid = int.TryParse(Console.ReadLine(), out int diceSide);
+            while (!isValid)
+            {
+                Console.WriteLine("That is not a valid entry. Please enter an integer.");
+                isValid = int.TryParse(Console.ReadLine(), out diceSide);
+            }
             //Flag to roll again
             bool flag = true;
 
@@ -15,15 +23,7 @@ namespace Lab4_1
             while (flag == true)
             {
 
-                Console.Write("How many sides do you want the dice to have? ");
-
-                //Input validation to make sure an int is entered
-                bool isValid = int.TryParse(Console.ReadLine(), out int diceSide);
-                while (!isValid)
-                {
-                    Console.WriteLine("That is not a valid entry. Please enter an integer.");
-                    isValid = int.TryParse(Console.ReadLine(), out diceSide);
-                }
+              
 
                 //Calls RollDice method with diceSide passed
                 int roll1 = RollDice(diceSide);
