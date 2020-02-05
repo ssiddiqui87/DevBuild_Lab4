@@ -40,16 +40,16 @@ namespace Lab4_1
             }
 
             Console.WriteLine("Thanks for playing!");
-     }
+        }
 
         //method to roll dice
         static int RollDice(int diceSize)
         {
             //Use random class to generate random number between 1 and diceSize+1
             Random random = new Random();
-            int diceValue = random.Next(1, diceSize + 1);
+
             //Return the dice roll value
-            return diceValue;
+            return random.Next(1, diceSize + 1);
         }
 
         //method to output message based on specific combos

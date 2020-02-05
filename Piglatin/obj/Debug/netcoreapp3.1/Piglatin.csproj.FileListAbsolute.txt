@@ -1,0 +1,11 @@
+C:\Users\ssiddiqui\source\repos\Piglatin\bin\Debug\netcoreapp3.1\Piglatin.exe
+C:\Users\ssiddiqui\source\repos\Piglatin\bin\Debug\netcoreapp3.1\Piglatin.deps.json
+C:\Users\ssiddiqui\source\repos\Piglatin\bin\Debug\netcoreapp3.1\Piglatin.runtimeconfig.json
+C:\Users\ssiddiqui\source\repos\Piglatin\bin\Debug\netcoreapp3.1\Piglatin.runtimeconfig.dev.json
+C:\Users\ssiddiqui\source\repos\Piglatin\bin\Debug\netcoreapp3.1\Piglatin.dll
+C:\Users\ssiddiqui\source\repos\Piglatin\bin\Debug\netcoreapp3.1\Piglatin.pdb
+C:\Users\ssiddiqui\source\repos\Piglatin\obj\Debug\netcoreapp3.1\Piglatin.AssemblyInfoInputs.cache
+C:\Users\ssiddiqui\source\repos\Piglatin\obj\Debug\netcoreapp3.1\Piglatin.AssemblyInfo.cs
+C:\Users\ssiddiqui\source\repos\Piglatin\obj\Debug\netcoreapp3.1\Piglatin.dll
+C:\Users\ssiddiqui\source\repos\Piglatin\obj\Debug\netcoreapp3.1\Piglatin.pdb
+C:\Users\ssiddiqui\source\repos\Piglatin\obj\Debug\netcoreapp3.1\Piglatin.csprojAssemblyReference.cache
