@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ssiddiqui\\source\\repos\\Piglatin\\Piglatin.csproj": {}
+    "C:\\Users\\ssiddiqui\\OneDrive - KNEX\\Desktop\\devbuild\\Grand Circus\\Week 4 - OOP\\Labs\\Piglatin\\Piglatin.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ssiddiqui\\source\\repos\\Piglatin\\Piglatin.csproj": {
+    "C:\\Users\\ssiddiqui\\OneDrive - KNEX\\Desktop\\devbuild\\Grand Circus\\Week 4 - OOP\\Labs\\Piglatin\\Piglatin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ssiddiqui\\source\\repos\\Piglatin\\Piglatin.csproj",
+        "projectUniqueName": "C:\\Users\\ssiddiqui\\OneDrive - KNEX\\Desktop\\devbuild\\Grand Circus\\Week 4 - OOP\\Labs\\Piglatin\\Piglatin.csproj",
         "projectName": "Piglatin",
-        "projectPath": "C:\\Users\\ssiddiqui\\source\\repos\\Piglatin\\Piglatin.csproj",
+        "projectPath": "C:\\Users\\ssiddiqui\\OneDrive - KNEX\\Desktop\\devbuild\\Grand Circus\\Week 4 - OOP\\Labs\\Piglatin\\Piglatin.csproj",
         "packagesPath": "C:\\Users\\ssiddiqui\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ssiddiqui\\source\\repos\\Piglatin\\obj\\",
+        "outputPath": "C:\\Users\\ssiddiqui\\OneDrive - KNEX\\Desktop\\devbuild\\Grand Circus\\Week 4 - OOP\\Labs\\Piglatin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
