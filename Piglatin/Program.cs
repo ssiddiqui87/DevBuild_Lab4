@@ -41,26 +41,36 @@ namespace Piglatin
 
         static string Consonant(string input)
         {
+            string vowel = "aeiou";
             string consonant = "bcdfghjklmnpqrstvwxyz";
             Queue<char> consonantQueue = new Queue<char>();
+            Queue<char> restOfWord = new Queue<char>();
             string output = "";
-            int ctr = 0;
-
-            //This will check each letter and if it is a consonant, it will put it in constantQueue until it gets to a vowel
-            while (consonant.Contains(input[ctr]))
+            for (int i = 0; i < input.Length; i++)
             {
-                consonantQueue.Enqueue(input[ctr]);
-                ctr++;
+                if (consonant.Contains(input[i]))
+                {
+                    consonantQueue.Enqueue(input[i]);
+                }
+                else if (vowel.Contains(input[i]))
+                {
+                    int ctr = i;
+                    for (int j = 0; j < (input.Length - i); j++)
+                    {
+                        restOfWord.Enqueue(input[ctr]);
+                        ctr++;
+                    }
+                    break;
+                }
             }
-
-           //Once a vowel is enountered, this loop will put the rest of the letters in "output"
-            for (int i = 0; i < (input.Length - ctr); i++)
+            for (int i = 0; restOfWord.Count > 0; i++)
             {
-                output += input[i + ctr];
+                output += restOfWord.Dequeue();
             }
-
-            //Dequeue from queue back onto output
-            output += consonantQueue.Dequeue();
+            for (int i = 0; consonantQueue.Count > 0; i++)
+            {
+                output += consonantQueue.Dequeue();
+            }
 
             //return output word with "ay" concatenated at the end.
             return (output + "ay");
